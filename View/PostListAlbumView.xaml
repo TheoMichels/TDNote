@@ -7,7 +7,7 @@
              mc:Ignorable="d" 
              d:DesignHeight="450" d:DesignWidth="800">
     <StackPanel >
-        <ListBox ItemsSource="{Binding ListAlbum}" Margin="8">
+        <ListBox ItemsSource="{Binding ListAlbum}" SelectedItem="{Binding SelectedPost}" Margin="8">
 
         </ListBox>
     

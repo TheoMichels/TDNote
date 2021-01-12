@@ -5,11 +5,11 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:TDNote"
         mc:Ignorable="d"
-        Title="{Binding TitreFenetre}" Height="450" Width="800">
+        Title="{Binding SelectedPost.TitreFenetre}" Height="450" Width="800">
     <ScrollViewer>
         <DockPanel>
             <local:PostListAlbumView DockPanel.Dock="Left" Width="250"/>
-            <local:PostView DockPanel.Dock="Right" Width="500" />
+            <local:PostView DockPanel.Dock="Right" Width="500" DataContext="{Binding SelectedPost}" />
         </DockPanel>
     </ScrollViewer>
 </Window>

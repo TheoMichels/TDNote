@@ -9,7 +9,7 @@
     <StackPanel Margin="8">
         <StackPanel  Orientation="Horizontal">
             <TextBlock Name="Album" Width="100">Album :</TextBlock>
-            <TextBox Name="txtAlbum" Margin="4" Padding="4" Width="300" Text="{Binding NomAlbum, UpdateSourceTrigger=PropertyChanged}"/>
+            <TextBox Name="txtAlbum" Margin="4" Padding="4" Width="300" Text="{Binding NomAlbum}"/>
         </StackPanel>
         
         <StackPanel  Orientation="Horizontal">
