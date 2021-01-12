@@ -9,8 +9,8 @@
     <ScrollViewer HorizontalScrollBarVisibility="auto" VerticalScrollBarVisibility="auto">
         <DockPanel>
             <StackPanel Margin="8" DockPanel.Dock="Left" Width="250">
-                <TextBox IsReadOnly="True" Margin="4" Padding="4" Text="Album 1" />
-                <TextBox IsReadOnly="True" Margin="4" Padding="4" Text="Album 2" />
+                <TextBlock x:Name ="album" Margin="4" Padding="4" Text="{Binding NomAlbum}"/>
+                <TextBlock x:Name="artiste" Margin="4" Padding="4" Text="{Binding NomArtiste}"/>
                 <TextBox IsReadOnly="True" Margin="4" Padding="4" Text="Album 3" />
                 <TextBox IsReadOnly="True" Margin="4" Padding="4" Text="Album 4" />
                 <TextBox IsReadOnly="True" Margin="4" Padding="4" Text="Album 5" />
@@ -43,7 +43,7 @@
                 <TextBox IsReadOnly="True" Margin="4" Padding="4" Text="Piste 5" />
 
                 <WrapPanel>
-                    <TextBox Name="txtPiste" Margin="4" Padding="4" Text="Nom nouvelle piste" Width="200"/>
+                    <TextBox Name="txtPiste" Margin="4" Padding="4" Width="200"/>
                     <Button Margin="4" Padding="4" Content="Ajouter" Width="100"/>
                     <Button Margin="4" Padding="4" Content="Supprimer" Width="100"/>
                 </WrapPanel>
