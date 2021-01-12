@@ -7,7 +7,21 @@
     </ApplicationDefinition>
   </ItemGroup>
   <ItemGroup>
+    <Compile Update="View\PostView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\PostListAlbumView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
     <Page Update="MainWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\PostView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\PostListAlbumView.xaml">
       <SubType>Designer</SubType>
     </Page>
   </ItemGroup>

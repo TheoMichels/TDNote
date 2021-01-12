@@ -17,3 +17,8 @@ C:\Users\theom\source\repos\TDNote\obj\Debug\netcoreapp3.1\TDNote.csproj.CoreCom
 C:\Users\theom\source\repos\TDNote\obj\Debug\netcoreapp3.1\TDNote.dll
 C:\Users\theom\source\repos\TDNote\obj\Debug\netcoreapp3.1\TDNote.pdb
 C:\Users\theom\source\repos\TDNote\obj\Debug\netcoreapp3.1\TDNote.genruntimeconfig.cache
+C:\Users\theom\source\repos\TDNote\obj\Debug\netcoreapp3.1\View\PostView.g.cs
+C:\Users\theom\source\repos\TDNote\obj\Debug\netcoreapp3.1\GeneratedInternalTypeHelper.g.cs
+C:\Users\theom\source\repos\TDNote\obj\Debug\netcoreapp3.1\View\PostListAlbumView.g.cs
+C:\Users\theom\source\repos\TDNote\obj\Debug\netcoreapp3.1\View\PostView.baml
+C:\Users\theom\source\repos\TDNote\obj\Debug\netcoreapp3.1\View\PostListAlbumView.baml
